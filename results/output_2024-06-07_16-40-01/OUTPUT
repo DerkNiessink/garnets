@@ -1,0 +1,206 @@
+#*****************************************************************
+#************  stfc/ccp5  program  library  package  ** D ********
+#************  daresbury laboratory general purpose  *** L *******
+#*         **  classical molecular dynamics program  **** \ ******
+#* DL_POLY **  authors:   i.t.todorov   &   w.smith  ***** P *****
+#*         **  version:  5.1.0    /  March 2021      ****** O ****
+#************  execution on           1 process(es)  ******* L ***
+#************  contributors' list:                   ******** Y **
+#************  ------------------------------------  *************
+#************  i.j.bush, h.a.boateng, r.davidchak,   *************
+#************  m.a.seaton, a.v.brukhno, a.m.elena,   *************
+#************  s.l.daraszewicz,g.khara,s.t.murphy    *************
+#************  j.madge,a.b.g.chalk,i.scivetti,       *************
+#************  j.wilkins                             *************
+#*****************************************************************
+
+I/O read method: parallel by using MPI-I/O (assumed)
+I/O write method: parallel by using MPI-I/O (assumed)
+#** warning - short-ranged interaction cutoff check: vdws%cutoff = Min(vdws%cutoff,Max(neigh%cutoff,rcut_def)) !!! ***
+
+ # warning issued 40
+
+ #** warning - tentative cutoff reset to   0.000 Angstroms !!! ***
+
+#** warning - DD cutoff check: neigh%cutoff = Max(neigh%cutoff,vdws%cutoff,met%rcut,kim_data%cutoff,bond%rcut,2.0_wp*tersoffs%cutoff+1.0e-6_wp !!! ***
+
+ # warning issued 40
+
+ #** warning - tentative cutoff reset to   6.000 Angstroms !!! ***
+
+#** warning - short-ranged interaction cutoff reset: vdws%cutoff = neigh%cutoff !!! ***
+
+ # warning issued 40
+
+ #** warning - tentative cutoff reset to   6.000 Angstroms !!! ***
+
+
+node/domain decomposition (x,y,z):      1      1      1
+Final link-cell decomposition (x,y,z):      6     6     6
+
+#** pre-scanning stage (set_bounds) done ***
+time elapsed since job start:        0.106 sec
+
+#*******************************************************************************
+#** title:                                                                   ***
+#** SmCoO3                                                                   ***
+#*******************************************************************************
+
+simulation control parameters
+simulation temperature (K)    3.0000E+02
+#** warning - The integrator keyword has been removed, using velocity Verlet integration !!! ***
+Ensemble : NPT isotropic Nose-Hoover (Melchionna)
+thermostat relaxation time (ps)   1.0000E-01
+barostat relaxation time (ps)   5.0000E-01
+selected number of timesteps     100000
+equilibration period (steps)      10000
+temperature scaling on (during equilibration)
+temperature scaling interval          3
+relaxed shell model CGM tolerance   1.0000E+00
+real space cutoff (Angs)   6.0000E+00
+Electrostatics : Smooth Particle Mesh Ewald
+Ewald sum precision   1.0000E-06
+Ewald convergence parameter (A^-1)   5.4722E-01
+Ewald kmax1 kmax2 kmax3   (x2)    42   42   42
+DaFT adjusted kmax values (x2)    45   45   45
+density variation allowance (%)   5.0000E+00
+data printing interval (steps)       1000
+trajectory file option on
+  trajectory file start          1
+  trajectory file interval       1000
+  trajectory file info key          0
+equilibration included in overall averages
+statistics file interval       1000
+data stacking interval (steps)        100
+data printing interval (steps)         10
+clean start requested
+Extended Coulombic eXclusion : NO
+cutoff padding reset to (Angs)   1.2000E-01
+vdw cutoff reset to (Angs)   6.0000E+00
+fixed simulation timestep (ps)   5.0000E-04
+rdf collection requested:
+  rdf collection interval        100
+  rdf binsize (Angstroms)   5.0000E-02
+rdf printing requested
+rdf pairs specified in FIELD
+data dumping interval (steps)       1000
+subcelling threshold density   5.0000E+01
+allocated job run time (s)   8.6400E+08
+allocated job close time (s)   2.0000E+01
+
+adiabatic shell model in operation
+
+ # warning issued 120
+
+ #** warning - unspecified atom-atom interactions set to zero !!! ***
+
+configuration file name:           #Li56 La24 Zr16 O96
+selected image convention:     Parallelepiped
+Simulation cell vectors [Ang]:
+       39.7082100000        0.0000000000        0.0000000000
+        0.0000000000       39.7082100000        0.0000000000
+        0.0000000000        0.0000000000       38.1051180000
+System volume:            60081.9377328     Ang^3
+
+#** all reading and connectivity checks done ***
+time elapsed since job start:        0.124 sec
+long-range correction for:
+  vdw energy(e.V):   -0.180411E+26
+  vdw pressure(GPa):   -0.159753E+00
+
+#** initialisation and haloing done ***
+time elapsed since job start:        0.125 sec
+//==============================================================\\
+||                                                              ||
+||           SUMMARY  OF  TOPOLOGICAL  DECOMPOSITION            ||
+||                                                              ||
+||--------------------------------------------------------------||
+||  INTERACTION  OR  TYPE  |  GRAND TOTAL | Fully/Partly FROZEN ||
+||-------------------------+--------------+---------------------||
+||  all particles/sites    |        7776  |  F            0     ||
+||  free particles         |        7776  |  F            0     ||
+||  core-shell units       |        2592  |  P            0     ||
+||  constraint bond units  |           0  |  F            0     ||
+||  PMF units              |           0  |  P         NONE     ||
+||  rigid body units       |           0  |  F            0     ||
+||  tethered atom units    |           0  |  F            0     ||
+||  chemical bond units    |           0  |  F            0     ||
+||  bond angle units       |           0  |  F            0     ||
+||  dihedral angle units   |           0  |  F            0     ||
+||  inversion angle units  |           0  |  F            0     ||
+\\==============================================================//
+
+#** bookkeeping done ***
+time elapsed since job start:        0.126 sec
+degrees of freedom break-down list:
+  free particles:             23328
+  centre of mass:             -3
+  non-periodicity:            0
+  frozen free particles:      0
+  shell-pseudo:               -7776
+  constrained:                0
+  Rigid bodies translational: 0
+  Rigid bodies rotational:    0
+  total (real):               15549
+
+System properties:
+  - mass(amu): 180705.90
+  - volume(ang^3): 60081.938
+  - density(g/cm^3): 4.9936577
+
+#** temperature setting done ***
+time elapsed since job start:        0.144 sec
+# forces evaluated at (re)start for VV integration...
+
+----------------------------------------------------------------------------------------------------------------------------------
+         step     eng_tot temp_tot[K]     eng_cfg     eng_src     eng_cou     eng_bnd     eng_ang     eng_dih     eng_tet
+     time[ps]      eng_pv temp_rot[K]     vir_cfg     vir_src     vir_cou     vir_bnd     vir_ang     vir_con     vir_tet
+     cpu  [s]      volume temp_shl[K]     eng_shl     vir_shl    alpha[o]     beta[o]    gamma[o]     vir_pmf       press
+----------------------------------------------------------------------------------------------------------------------------------
+            0 -1.1660E+05  3.0000E+02 -1.1680E+05  1.3623E+04 -1.3042E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+      0.00000 -1.1660E+05  0.0000E+00  3.3779E+04 -9.6627E+04  1.3041E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+        0.190  6.0082E+04  0.0000E+00  0.0000E+00  0.0000E+00  9.0000E+01  9.0000E+01  9.0000E+01  0.0000E+00 -2.9280E+02
+
+      rolling  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+     averages  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+               0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+         step     eng_tot temp_tot[K]     eng_cfg     eng_src     eng_cou     eng_bnd     eng_ang     eng_dih     eng_tet
+     time[ps]      eng_pv temp_rot[K]     vir_cfg     vir_src     vir_cou     vir_bnd     vir_ang     vir_con     vir_tet
+     cpu  [s]      volume temp_shl[K]     eng_shl     vir_shl    alpha[o]     beta[o]    gamma[o]     vir_pmf       press
+----------------------------------------------------------------------------------------------------------------------------------
+            1 -1.1693E+05  3.0000E+02 -1.1713E+05  1.4177E+04 -1.3135E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+      0.00050 -1.1693E+05  0.0000E+00  3.2414E+04 -9.8993E+04  1.3133E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+        0.218  6.0074E+04  1.0000E-02  3.7559E+01  7.5118E+01  9.0000E+01  9.0000E+01  9.0000E+01  0.0000E+00 -2.8087E+02
+
+      rolling -1.1693E+05  3.0000E+02 -1.1713E+05  1.4177E+04 -1.3135E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+     averages -1.1693E+05  0.0000E+00  3.2414E+04 -9.8993E+04  1.3133E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+               0.6007E+05  0.1000E-01  0.3756E+02  0.7512E+02  0.9000E+02  0.9000E+02  0.9000E+02  0.0000E+00 -0.2809E+03
+----------------------------------------------------------------------------------------------------------------------------------
+           10 -1.1725E+05  3.0000E+02 -1.1747E+05  1.6095E+04 -1.3418E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+      0.00500 -1.1726E+05  0.0000E+00  2.8449E+04 -1.0694E+05  1.3416E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+        0.567  5.9893E+04  1.8691E-02  6.1674E+02  1.2335E+03  9.0000E+01  9.0000E+01  9.0000E+01  0.0000E+00 -2.4682E+02
+
+      rolling -1.1707E+05  4.2700E+02 -1.1736E+05  1.5153E+04 -1.3282E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+     averages -1.1707E+05  0.0000E+00  3.0397E+04 -1.0304E+05  1.3281E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+               0.5999E+05  0.2020E+03  0.3130E+03  0.6259E+03  0.9000E+02  0.9000E+02  0.9000E+02  0.0000E+00 -0.2620E+03
+----------------------------------------------------------------------------------------------------------------------------------
+           20 -1.1780E+05  4.5419E+02 -1.1811E+05  1.4649E+04 -1.3306E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+      0.01000 -1.1780E+05  0.0000E+00  3.2813E+04 -1.0082E+05  1.3304E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+        0.884  5.9704E+04  1.5527E+02  2.9755E+02  5.9510E+02  9.0000E+01  9.0000E+01  9.0000E+01  0.0000E+00 -2.8431E+02
+
+      rolling -1.1730E+05  4.3523E+02 -1.1759E+05  1.5087E+04 -1.3301E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+     averages -1.1730E+05  0.0000E+00  3.0948E+04 -1.0272E+05  1.3300E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+               0.5989E+05  0.1746E+03  0.3337E+03  0.6675E+03  0.9000E+02  0.9000E+02  0.9000E+02  0.0000E+00 -0.2672E+03
+----------------------------------------------------------------------------------------------------------------------------------
+           30 -1.1846E+05  5.8426E+02 -1.1885E+05  1.4847E+04 -1.3421E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+      0.01500 -1.1846E+05  0.0000E+00  3.3454E+04 -1.0174E+05  1.3419E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+        1.193  5.9493E+04  1.5344E+02  5.0627E+02  1.0125E+03  9.0000E+01  9.0000E+01  9.0000E+01  0.0000E+00 -2.8945E+02
+
+      rolling -1.1759E+05  4.4302E+02 -1.1789E+05  1.5126E+04 -1.3342E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+     averages -1.1760E+05  0.0000E+00  3.1305E+04 -1.0290E+05  1.3340E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+               0.5979E+05  0.1539E+03  0.4018E+03  0.8036E+03  0.9000E+02  0.9000E+02  0.9000E+02  0.0000E+00 -0.2708E+03
+----------------------------------------------------------------------------------------------------------------------------------
+           40 -1.1946E+05  3.0000E+02 -1.1967E+05  1.6205E+04 -1.3684E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+      0.02000 -1.1947E+05  0.0000E+00  3.0312E+04 -1.0843E+05  1.3681E+05  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00

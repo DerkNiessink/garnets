@@ -1,4 +1,10 @@
 #!/bin/bash
+#SBATCH -J garnets
+#SBATCH -t 1:30:00
+#SBATCH -N 1
+#SBATCH --tasks-per-node 15
+#SBATCH --mem=60G
+
 
 interrupted=0
 
@@ -15,6 +21,7 @@ cd sim
 trap handle_interrupt INT
 echo "Running DLPOLY..."
 ./DLPOLY.Z &
+
 pid=$!
 
 # Start the timer

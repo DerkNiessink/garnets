@@ -10,6 +10,7 @@ cd dl-poly-5.1.0/execute
 module load 2022
 module load 2023
 module load foss/2023a
+module load OpenMPI/4.1.5-GCC-12.3.0
 
 echo "Running DLPOLY..."
 srun DLPOLY.Z

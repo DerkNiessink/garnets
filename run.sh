@@ -7,8 +7,6 @@
 
 cd dl-poly-5.1.0/execute
 
-module load openmpi
-module load mpicopy
 module load 2022
 module load 2023
 module load foss/2023a

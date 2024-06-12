@@ -1,5 +1,5 @@
 mkdir -pv          ../data/TEST_$1
-cp -vpLH CONTROL   ../data/TEST_$1
+cp -vpLH CONTROL   ../data/TEST_$1 
 cp -vpLH CONFIG    ../data/TEST_$1
 cp -vpLH FIELD     ../data/TEST_$1
 cp -vpLH MPOLES    ../data/TEST_$1

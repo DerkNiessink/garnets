@@ -15,7 +15,7 @@ handle_interrupt() {
     interrupted=1
 }
 
-cd sim
+cd dl-poly-5.1.0/execute
 
 # Set up the trap
 trap handle_interrupt INT
@@ -44,21 +44,7 @@ trap - INT
 echo -e "\nSaving output files..."
 
 current_date_time=$(date '+%Y-%m-%d_%H-%M-%S')
-new_dir="../results/output_${current_date_time}"
-mkdir "${new_dir}"
-
-mv REVCON "${new_dir}" 2>/dev/null
-mv OUTPUT "${new_dir}" 2>/dev/null
-mv STATIS "${new_dir}" 2>/dev/null
-mv HISTORY "${new_dir}" 2>/dev/null
-mv RDFDAT "${new_dir}" 2>/dev/null
-mv RDFOUT "${new_dir}" 2>/dev/null
-mv REVIVE "${new_dir}" 2>/dev/null
-
-cp CONTROL "${new_dir}" 2>/dev/null
-cp CONFIG "${new_dir}" 2>/dev/null
-cp FIELD "${new_dir}" 2>/dev/null
-
-rm ../temp.cif 2>/dev/null
+./store "${current_date_time}" 2>/dev/null
+./cleanup 2>/dev/null
 
 echo "Finished"

@@ -1,0 +1,1 @@
+/sw/arch/RHEL8/EB_production/2023/software/GCCcore/12.3.0/bin/f95 -O3 CMakeFiles/DLPOLY.Z.dir/dl_poly.F90.o -o ../bin/DLPOLY.Z   -L/home/dniessink/garnets/dl-poly-5.1.0/build-serial/lib64  -Wl,-rpath,/home/dniessink/garnets/dl-poly-5.1.0/build-serial/lib64: ../lib64/libdlpoly.a 

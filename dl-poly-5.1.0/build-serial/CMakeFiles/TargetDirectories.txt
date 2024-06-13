@@ -1,0 +1,14 @@
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/CMakeFiles/install/strip.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/CMakeFiles/install/local.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/CMakeFiles/install.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/CMakeFiles/list_install_components.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/CMakeFiles/rebuild_cache.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/CMakeFiles/edit_cache.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/source/CMakeFiles/install/strip.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/source/CMakeFiles/install/local.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/source/CMakeFiles/install.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/source/CMakeFiles/list_install_components.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/source/CMakeFiles/rebuild_cache.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/source/CMakeFiles/edit_cache.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/source/CMakeFiles/DLPOLY.Z.dir
+/home/dniessink/garnets/dl-poly-5.1.0/build-serial/source/CMakeFiles/dlpoly.dir

@@ -1,0 +1,59 @@
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim2/run_1...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim2/run_2...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim2/run_3...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim2/run_4...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim2/run_5...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim2/run_6...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim2/run_7...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim2/run_8...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim2/run_9...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim2/run_10...
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+slurmstepd: error: *** JOB 6617843 ON tcn217 CANCELLED AT 2024-06-13T00:52:13 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 6617843.0 ON tcn217 CANCELLED AT 2024-06-13T00:52:13 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6617843.1 ON tcn217 CANCELLED AT 2024-06-13T00:52:13 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6617843.3 ON tcn217 CANCELLED AT 2024-06-13T00:52:13 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6617843.2 ON tcn217 CANCELLED AT 2024-06-13T00:52:13 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6617843.8 ON tcn217 CANCELLED AT 2024-06-13T00:52:13 DUE TO TIME LIMIT ***
+slurmstepd: error: container_p_join: open failed for /slurm/6617843/.ns: No such file or directory
+slurmstepd: error: container_g_join(6617843): No such file or directory
+srun: error: tcn217: task 0: Terminated
+srun: Terminating StepId=6617843.0
+slurmstepd: error: container_p_join: open failed for /slurm/6617843/.ns: No such file or directory
+slurmstepd: error: container_g_join(6617843): No such file or directory
+srun: error: tcn217: task 0: Terminated
+srun: Terminating StepId=6617843.1
+slurmstepd: error: container_p_join: open failed for /slurm/6617843/.ns: No such file or directory
+slurmstepd: error: container_g_join(6617843): No such file or directory
+srun: error: tcn217: task 0: Terminated
+srun: Terminating StepId=6617843.3
+slurmstepd: error: container_p_join: open failed for /slurm/6617843/.ns: No such file or directory
+slurmstepd: error: container_g_join(6617843): No such file or directory
+srun: error: tcn217: task 0: Terminated
+srun: Terminating StepId=6617843.2
+slurmstepd: error: container_p_join: open failed for /slurm/6617843/.ns: No such file or directory
+slurmstepd: error: container_g_join(6617843): No such file or directory
+slurmstepd: error: container_p_join: open failed for /slurm/6617843/.ns: No such file or directory
+slurmstepd: error: container_g_join(6617843): No such file or directory
+
+JOB STATISTICS
+==============
+Job ID: 6617843
+Cluster: snellius
+User/Group: dniessink/dniessink
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 1-13:57:09
+CPU Efficiency: 47.42% of 3-08:01:36 core-walltime
+Job Wall-clock time: 05:00:06
+Memory Utilized: 227.35 MB
+Memory Efficiency: 0.37% of 60.00 GB

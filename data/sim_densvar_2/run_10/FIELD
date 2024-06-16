@@ -1,0 +1,32 @@
+LLZO Buckingham potential and shell model
+units  ev
+molecular types 4
+Lithium
+nummols 7000
+atoms 1
+Li     6.491  1.000    1
+finish
+Lanthanum
+nummols 3000
+atoms 1
+La       138.90547  3.0000    1 
+finish
+Zirconium
+nummols 2000
+atoms 1
+Zr   91.224    4.000 1
+finish
+Oxygen
+nummols 12000
+atoms 2
+O       15.8000         0.760    1  0 
+O_s      0.2000        -2.760     1  0
+shell 1 1  
+1 2 30.20
+finish
+vdw 4
+Li        O_s       buck   632.10        0.2096    0.0
+La        O_s       buck   4579.23       0.3044    0.0 
+Zr        O_s       buck   1470.10       0.3500    0.0
+O_s       O_s       buck   22764.3       0.1490   27.63             
+close

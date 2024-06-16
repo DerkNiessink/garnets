@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH -J garnets
-#SBATCH -t 5:00:00
 #SBATCH -N 1
 #SBATCH --mem=60G
 #SBATCH --ntasks=10
+#SBATCH -t 20:00:00
 
 module load 2022
 module load 2023
@@ -11,7 +11,7 @@ module load foss/2023a
 
 
 NUM_RUNS=10
-BASE_DIR=$PWD/data/sim_timestep
+BASE_DIR=$PWD/data/sim_densvar_4
 
 
 # Function to modify the temperature and timestep in the CONTROL file

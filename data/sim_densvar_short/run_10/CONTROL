@@ -1,6 +1,6 @@
 SmCoO3
 #SYSTEM TARGET TEMPERATURE
-temperature 1150
+temperature 1300
 
 #INTEGRATION FALVOUR AND ENSEMBLE
 integrator velocity verlet
@@ -19,7 +19,7 @@ ensemble npt hoover 0.1 0.5
 pressure              0.001
 
 #INTEGRATION TIMESTEP IN PICOSECONDS
-timestep             0.0002
+timestep             0.0005
 
 #SIMULATION AND EQUILIBRATION LENGTH
 steps                 150000
@@ -34,7 +34,7 @@ rcut   6
 #cutoff                4.0
 ewald precision       1e-6
 shake tolerance       1e-5
-densvar 5
+densvar 10
 #OUTPUT
 print every           1000
 

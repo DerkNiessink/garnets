@@ -1,0 +1,14 @@
+
+JOB STATISTICS
+==============
+Job ID: 6662758
+Cluster: snellius
+User/Group: dniessink/dniessink
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:04:32 core-walltime
+Job Wall-clock time: 00:00:17
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 60.00 GB (60.00 GB/node)

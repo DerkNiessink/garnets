@@ -18,7 +18,7 @@ BASE_DIR=$PWD/data/sim_densvar_short
 modify_control_file() {
     local run_number=$1
     local control_file=$2
-    local temp_increase=$(((run_number-1) * 100))
+    local temp_increase=$((run_number * 100))
 
     awk -v temp_increase="$temp_increase" '
     /temperature/ {

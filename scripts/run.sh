@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH -J garnets
-#SBATCH -t 5:00:00
-#SBATCH -N 1
+#SBATCH -t 20:00:00
+#SBATCH -N 10
 #SBATCH --mem=60G
-#SBATCH --ntasks=10
+#SBATCH --ntasks=1
 
 module load 2022
 module load 2023

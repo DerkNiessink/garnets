@@ -1,0 +1,63 @@
+SmCoO3
+#SYSTEM TARGET TEMPERATURE
+temperature           1000.0
+
+#INTEGRATION FALVOUR AND ENSEMBLE
+integrator velocity verlet
+#ensemble nvt evans 
+#ensemble nvt lang   0.1
+#ensemble nvt ander  0.0001 0.5
+#ensemble nvt ber    0.001
+#ensemble nvt hoover 0.001
+#ensemble nvt gst    0.001 0.5
+#ensemble npt lang   0.1 0.5
+#ensemble npt ber    0.1 0.5
+ensemble npt hoover 0.1 0.5
+#ensemble npt mtk    0.1 0.5
+
+#SYSTEM PRESSURE
+pressure              0.001
+
+#INTEGRATION TIMESTEP IN PICOSECONDS
+timestep 0.000256579
+
+#SIMULATION AND EQUILIBRATION LENGTH
+steps 292308
+equilibration 77948.7
+
+#EQUILIBRATION DIRECTIVES
+scale                 3
+
+#SYSTEM CUTOFFS AND ELECTROSTATICS
+rlxtol 1.0
+rcut   6 
+#cutoff                4.0
+ewald precision       1e-6
+shake tolerance       1e-5
+densvar 100
+#OUTPUT
+print every           1000
+
+#HISTPRY at i, every j, k (=0:coords, 1:+vels, 2:+forces)
+#AT EACH RESTART SET i=last step of previous run
+traj                  1 1000 0 
+
+#STATISTICS
+collect
+stats every           1000
+stack                 10
+
+#EXECUTION TIME 
+job time              864000000.0
+close time            20.0
+
+
+#no elec
+rdf                   100
+print every           10
+print rdf
+
+#FINISH
+finish
+
+

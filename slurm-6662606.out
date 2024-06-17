@@ -1,0 +1,95 @@
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/FIELD': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONFIG': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/DLPOLY.Z': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONTROL': No such file or directory
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim_densvar_short/run_1...
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/FIELD': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONFIG': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/DLPOLY.Z': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONTROL': No such file or directory
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim_densvar_short/run_2...
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/FIELD': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONFIG': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/DLPOLY.Z': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONTROL': No such file or directory
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim_densvar_short/run_3...
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/FIELD': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONFIG': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/DLPOLY.Z': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONTROL': No such file or directory
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim_densvar_short/run_4...
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/FIELD': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONFIG': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/DLPOLY.Z': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONTROL': No such file or directory
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim_densvar_short/run_5...
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/FIELD': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONFIG': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/DLPOLY.Z': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONTROL': No such file or directory
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim_densvar_short/run_6...
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/FIELD': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONFIG': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/DLPOLY.Z': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONTROL': No such file or directory
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim_densvar_short/run_7...
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/FIELD': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONFIG': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/DLPOLY.Z': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONTROL': No such file or directory
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim_densvar_short/run_8...
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/FIELD': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONFIG': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/DLPOLY.Z': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONTROL': No such file or directory
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim_densvar_short/run_9...
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/FIELD': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONFIG': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/DLPOLY.Z': No such file or directory
+cp: cannot stat '/gpfs/home1/dniessink/garnets/sim_densvar_short/CONTROL': No such file or directory
+Running DLPOLY in /gpfs/home1/dniessink/garnets/sim_densvar_short/run_10...
+srun: error: tcn430: task 0: Exited with exit code 2
+srun: Terminating StepId=6662606.0
+slurmstepd: error: execve(): DLPOLY.Z: No such file or directory
+srun: error: tcn430: task 0: Exited with exit code 2
+srun: error: tcn430: task 0: Exited with exit code 2
+srun: Terminating StepId=6662606.1
+srun: Terminating StepId=6662606.2
+srun: error: tcn430: task 0: Exited with exit code 2
+srun: Terminating StepId=6662606.3
+slurmstepd: error: execve(): DLPOLY.Z: No such file or directory
+slurmstepd: error: execve(): DLPOLY.Z: No such file or directory
+slurmstepd: error: execve(): DLPOLY.Z: No such file or directory
+srun: error: tcn430: task 0: Exited with exit code 2
+srun: Terminating StepId=6662606.5
+srun: error: tcn430: task 0: Exited with exit code 2
+srun: Terminating StepId=6662606.7
+slurmstepd: error: execve(): DLPOLY.Z: No such file or directory
+srun: error: tcn430: task 0: Exited with exit code 2
+srun: Terminating StepId=6662606.4
+srun: error: tcn430: task 0: Exited with exit code 2
+srun: Terminating StepId=6662606.6
+slurmstepd: error: execve(): DLPOLY.Z: No such file or directory
+srun: error: tcn430: task 0: Exited with exit code 2
+srun: Terminating StepId=6662606.8
+slurmstepd: error: execve(): DLPOLY.Z: No such file or directory
+slurmstepd: error: execve(): DLPOLY.Z: No such file or directory
+slurmstepd: error: execve(): DLPOLY.Z: No such file or directory
+srun: error: tcn430: task 0: Exited with exit code 2
+srun: Terminating StepId=6662606.9
+slurmstepd: error: execve(): DLPOLY.Z: No such file or directory
+All DL_POLY runs finished
+
+JOB STATISTICS
+==============
+Job ID: 6662606
+Cluster: snellius
+User/Group: dniessink/dniessink
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:00:06
+CPU Efficiency: 1.63% of 00:06:08 core-walltime
+Job Wall-clock time: 00:00:23
+Memory Utilized: 3.82 MB
+Memory Efficiency: 0.01% of 60.00 GB

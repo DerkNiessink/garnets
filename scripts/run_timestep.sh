@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH -J garnets
-#SBATCH -N 1
+#SBATCH -N 10
 #SBATCH --mem=60G
-#SBATCH --ntasks=10
+#SBATCH --ntasks=1
 #SBATCH -t 20:00:00
 
 module load 2022
@@ -11,7 +11,7 @@ module load foss/2023a
 
 
 NUM_RUNS=10
-BASE_DIR=$PWD/data/sim_densvar_4
+BASE_DIR=$PWD/data/sim_densvar_high
 
 
 # Function to modify the temperature and timestep in the CONTROL file
@@ -20,7 +20,7 @@ modify_control_file() {
     local control_file=$2
     
     # Define how much to increase the temperature and timestep
-    local timestep_decrease=$(echo "1.2^($run_number - 1)" | bc -l)
+    local timestep_decrease=$(echo "1.1^($run_number - 1)" | bc -l)
 
     awk -v timestep_decrease="$timestep_decrease" '
     /timestep/ {

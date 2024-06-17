@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -J garnets
-#SBATCH -t 5:00:00
+#SBATCH -t 20:00:00
 #SBATCH -N 1
 #SBATCH --mem=60G
 #SBATCH --ntasks=10
@@ -11,14 +11,14 @@ module load foss/2023a
 
 
 NUM_RUNS=10
-BASE_DIR=$PWD/sim2
+BASE_DIR=$PWD/data/sim_densvar_short
 
 
 # Function to modify the temperature in the CONTROL file
 modify_control_file() {
     local run_number=$1
     local control_file=$2
-    local temp_increase=$((run_number * 50))
+    local temp_increase=$(((run_number-1) * 100))
 
     awk -v temp_increase="$temp_increase" '
     /temperature/ {

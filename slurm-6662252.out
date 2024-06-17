@@ -1,0 +1,37 @@
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_high/run_1...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_high/run_2...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_high/run_3...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_high/run_4...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_high/run_5...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_high/run_6...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_high/run_7...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_high/run_8...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_high/run_9...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_high/run_10...
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 6662252 ON tcn248 CANCELLED AT 2024-06-17T15:53:03 ***
+slurmstepd: error: container_p_join: setns failed for /slurm/6662252/.ns: Invalid argument
+slurmstepd: error: container_g_join(6662252): Invalid argument
+
+JOB STATISTICS
+==============
+Job ID: 6662252
+Cluster: snellius
+User/Group: dniessink/dniessink
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:28:13
+CPU Efficiency: 52.64% of 00:53:36 core-walltime
+Job Wall-clock time: 00:03:21
+Memory Utilized: 220.34 MB
+Memory Efficiency: 0.36% of 60.00 GB

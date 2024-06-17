@@ -1,0 +1,265 @@
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_1...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_2...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_3...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_4...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_5...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_6...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_7...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_8...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_9...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_10...
+At line 1667 of file /home/dniessink/dl-poly/source/configuration.F90
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x14a0c32b02a2 in read_sf
+	at ../../../libgfortran/io/transfer.c:451
+#1  0x14a0c32acdde in read_default_char1
+	at ../../../libgfortran/io/read.c:455
+#2  0x14a0c32b18ec in formatted_transfer_scalar_read
+	at ../../../libgfortran/io/transfer.c:1787
+#3  0x14a0c32b2875 in formatted_transfer
+	at ../../../libgfortran/io/transfer.c:2491
+#4  0x5e01f1 in ???
+#5  0x5e6c6f in ???
+#6  0x48e11b in ???
+#7  0x414e42 in ???
+#8  0x41ce55 in ???
+#9  0x40291b in ???
+#10  0x401dac in ???
+#11  0x14a0c2937d84 in ???
+#12  0x401e0d in ???
+#13  0xffffffffffffffff in ???
+srun: error: tcn428: task 0: Exited with exit code 2
+srun: Terminating StepId=6662666.0
+At line 1667 of file /home/dniessink/dl-poly/source/configuration.F90
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x153f0d8992a2 in read_sf
+	at ../../../libgfortran/io/transfer.c:451
+#1  0x153f0d895dde in read_default_char1
+	at ../../../libgfortran/io/read.c:455
+#2  0x153f0d89a8ec in formatted_transfer_scalar_read
+	at ../../../libgfortran/io/transfer.c:1787
+#3  0x153f0d89b875 in formatted_transfer
+	at ../../../libgfortran/io/transfer.c:2491
+#4  0x5e01f1 in ???
+#5  0x5e6c6f in ???
+#6  0x48e11b in ???
+#7  0x414e42 in ???
+#8  0x41ce55 in ???
+#9  0x40291b in ???
+#10  0x401dac in ???
+#11  0x153f0cf20d84 in ???
+#12  0x401e0d in ???
+#13  0xffffffffffffffff in ???
+srun: error: tcn428: task 0: Exited with exit code 2
+srun: Terminating StepId=6662666.1
+At line 1667 of file /home/dniessink/dl-poly/source/configuration.F90
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x15504d9f82a2 in read_sf
+	at ../../../libgfortran/io/transfer.c:451
+#1  0x15504d9f4dde in read_default_char1
+	at ../../../libgfortran/io/read.c:455
+#2  0x15504d9f98ec in formatted_transfer_scalar_read
+	at ../../../libgfortran/io/transfer.c:1787
+#3  0x15504d9fa875 in formatted_transfer
+	at ../../../libgfortran/io/transfer.c:2491
+#4  0x5e01f1 in ???
+#5  0x5e6c6f in ???
+#6  0x48e11b in ???
+#7  0x414e42 in ???
+#8  0x41ce55 in ???
+#9  0x40291b in ???
+#10  0x401dac in ???
+#11  0x15504d07fd84 in ???
+#12  0x401e0d in ???
+#13  0xffffffffffffffff in ???
+srun: error: tcn428: task 0: Exited with exit code 2
+srun: Terminating StepId=6662666.2
+At line 1667 of file /home/dniessink/dl-poly/source/configuration.F90
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x14a5e23672a2 in read_sf
+	at ../../../libgfortran/io/transfer.c:451
+#1  0x14a5e2363dde in read_default_char1
+	at ../../../libgfortran/io/read.c:455
+#2  0x14a5e23688ec in formatted_transfer_scalar_read
+	at ../../../libgfortran/io/transfer.c:1787
+#3  0x14a5e2369875 in formatted_transfer
+	at ../../../libgfortran/io/transfer.c:2491
+#4  0x5e01f1 in ???
+#5  0x5e6c6f in ???
+#6  0x48e11b in ???
+#7  0x414e42 in ???
+#8  0x41ce55 in ???
+#9  0x40291b in ???
+#10  0x401dac in ???
+#11  0x14a5e19eed84 in ???
+#12  0x401e0d in ???
+#13  0xffffffffffffffff in ???
+srun: error: tcn428: task 0: Exited with exit code 2
+srun: Terminating StepId=6662666.3
+At line 1667 of file /home/dniessink/dl-poly/source/configuration.F90
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x14efc6a532a2 in read_sf
+	at ../../../libgfortran/io/transfer.c:451
+#1  0x14efc6a4fdde in read_default_char1
+	at ../../../libgfortran/io/read.c:455
+#2  0x14efc6a548ec in formatted_transfer_scalar_read
+	at ../../../libgfortran/io/transfer.c:1787
+#3  0x14efc6a55875 in formatted_transfer
+	at ../../../libgfortran/io/transfer.c:2491
+#4  0x5e01f1 in ???
+#5  0x5e6c6f in ???
+#6  0x48e11b in ???
+#7  0x414e42 in ???
+#8  0x41ce55 in ???
+#9  0x40291b in ???
+#10  0x401dac in ???
+#11  0x14efc60dad84 in ???
+#12  0x401e0d in ???
+#13  0xffffffffffffffff in ???
+srun: error: tcn428: task 0: Exited with exit code 2
+srun: Terminating StepId=6662666.4
+At line 1667 of file /home/dniessink/dl-poly/source/configuration.F90
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x14ce09d2f2a2 in read_sf
+	at ../../../libgfortran/io/transfer.c:451
+#1  0x14ce09d2bdde in read_default_char1
+	at ../../../libgfortran/io/read.c:455
+#2  0x14ce09d308ec in formatted_transfer_scalar_read
+	at ../../../libgfortran/io/transfer.c:1787
+#3  0x14ce09d31875 in formatted_transfer
+	at ../../../libgfortran/io/transfer.c:2491
+#4  0x5e01f1 in ???
+#5  0x5e6c6f in ???
+#6  0x48e11b in ???
+#7  0x414e42 in ???
+#8  0x41ce55 in ???
+#9  0x40291b in ???
+#10  0x401dac in ???
+#11  0x14ce093b6d84 in ???
+#12  0x401e0d in ???
+#13  0xffffffffffffffff in ???
+srun: error: tcn428: task 0: Exited with exit code 2
+srun: Terminating StepId=6662666.5
+At line 1667 of file /home/dniessink/dl-poly/source/configuration.F90
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x153577fb72a2 in read_sf
+	at ../../../libgfortran/io/transfer.c:451
+#1  0x153577fb3dde in read_default_char1
+	at ../../../libgfortran/io/read.c:455
+#2  0x153577fb88ec in formatted_transfer_scalar_read
+	at ../../../libgfortran/io/transfer.c:1787
+#3  0x153577fb9875 in formatted_transfer
+	at ../../../libgfortran/io/transfer.c:2491
+#4  0x5e01f1 in ???
+#5  0x5e6c6f in ???
+#6  0x48e11b in ???
+#7  0x414e42 in ???
+#8  0x41ce55 in ???
+#9  0x40291b in ???
+#10  0x401dac in ???
+#11  0x15357763ed84 in ???
+#12  0x401e0d in ???
+#13  0xffffffffffffffff in ???
+srun: error: tcn428: task 0: Exited with exit code 2
+srun: Terminating StepId=6662666.6
+At line 1667 of file /home/dniessink/dl-poly/source/configuration.F90
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x145831eb72a2 in read_sf
+	at ../../../libgfortran/io/transfer.c:451
+#1  0x145831eb3dde in read_default_char1
+	at ../../../libgfortran/io/read.c:455
+#2  0x145831eb88ec in formatted_transfer_scalar_read
+	at ../../../libgfortran/io/transfer.c:1787
+#3  0x145831eb9875 in formatted_transfer
+	at ../../../libgfortran/io/transfer.c:2491
+#4  0x5e01f1 in ???
+#5  0x5e6c6f in ???
+#6  0x48e11b in ???
+#7  0x414e42 in ???
+#8  0x41ce55 in ???
+#9  0x40291b in ???
+#10  0x401dac in ???
+#11  0x14583153ed84 in ???
+#12  0x401e0d in ???
+#13  0xffffffffffffffff in ???
+srun: error: tcn428: task 0: Exited with exit code 2
+srun: Terminating StepId=6662666.7
+At line 1667 of file /home/dniessink/dl-poly/source/configuration.F90
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+At line 1667 of file /home/dniessink/dl-poly/source/configuration.F90
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x146e6b7f92a2 in read_sf
+	at ../../../libgfortran/io/transfer.c:451
+#1  0x146e6b7f5dde in read_default_char1
+	at ../../../libgfortran/io/read.c:455
+#2  0x146e6b7fa8ec in formatted_transfer_scalar_read
+	at ../../../libgfortran/io/transfer.c:1787
+#3  0x146e6b7fb875 in formatted_transfer
+	at ../../../libgfortran/io/transfer.c:2491
+#4  0x5e01f1 in ???
+#5  0x5e6c6f in ???
+#6  0x48e11b in ???
+#7  0x414e42 in ???
+#8  0x41ce55 in ???
+#9  0x40291b in ???
+#10  0x401dac in ???
+#11  0x146e6ae80d84 in ???
+#12  0x401e0d in ???
+#13  0xffffffffffffffff in ???
+srun: error: tcn428: task 0: Exited with exit code 2
+srun: Terminating StepId=6662666.8
+#0  0x146237da32a2 in read_sf
+	at ../../../libgfortran/io/transfer.c:451
+#1  0x146237d9fdde in read_default_char1
+	at ../../../libgfortran/io/read.c:455
+#2  0x146237da48ec in formatted_transfer_scalar_read
+	at ../../../libgfortran/io/transfer.c:1787
+#3  0x146237da5875 in formatted_transfer
+	at ../../../libgfortran/io/transfer.c:2491
+#4  0x5e01f1 in ???
+#5  0x5e6c6f in ???
+#6  0x48e11b in ???
+#7  0x414e42 in ???
+#8  0x41ce55 in ???
+#9  0x40291b in ???
+#10  0x401dac in ???
+#11  0x14623742ad84 in ???
+#12  0x401e0d in ???
+#13  0xffffffffffffffff in ???
+srun: error: tcn428: task 0: Exited with exit code 2
+srun: Terminating StepId=6662666.9
+All DL_POLY runs finished
+
+JOB STATISTICS
+==============
+Job ID: 6662666
+Cluster: snellius
+User/Group: dniessink/dniessink
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:00:08
+CPU Efficiency: 2.78% of 00:04:48 core-walltime
+Job Wall-clock time: 00:00:18
+Memory Utilized: 2.88 MB
+Memory Efficiency: 0.00% of 60.00 GB

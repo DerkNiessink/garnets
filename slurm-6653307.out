@@ -1,0 +1,58 @@
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_1...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_2...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_3...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_4...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_5...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_6...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_7...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_8...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_9...
+Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_short/run_10...
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 6653307.2 ON tcn488 CANCELLED AT 2024-06-17T04:00:32 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6653307.3 ON tcn488 CANCELLED AT 2024-06-17T04:00:32 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6653307.5 ON tcn488 CANCELLED AT 2024-06-17T04:00:32 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6653307.6 ON tcn488 CANCELLED AT 2024-06-17T04:00:32 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6653307.7 ON tcn488 CANCELLED AT 2024-06-17T04:00:32 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6653307.8 ON tcn488 CANCELLED AT 2024-06-17T04:00:32 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 6653307 ON tcn488 CANCELLED AT 2024-06-17T04:00:32 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6653307.0 ON tcn488 CANCELLED AT 2024-06-17T04:00:32 DUE TO TIME LIMIT ***
+srun: error: tcn488: task 0: Terminated
+srun: Terminating StepId=6653307.2
+srun: error: tcn488: task 0: Terminated
+srun: Terminating StepId=6653307.3
+srun: error: tcn488: task 0: Terminated
+srun: Terminating StepId=6653307.5
+srun: error: tcn488: task 0: Terminated
+srun: Terminating StepId=6653307.6
+srun: error: tcn488: task 0: Terminated
+srun: Terminating StepId=6653307.7
+slurmstepd: error: container_p_join: setns failed for /slurm/6653307/.ns: Invalid argument
+slurmstepd: error: container_g_join(6653307): Invalid argument
+srun: error: tcn488: task 0: Terminated
+srun: Terminating StepId=6653307.8
+slurmstepd: error: container_p_join: open failed for /slurm/6653307/.ns: No such file or directory
+slurmstepd: error: container_g_join(6653307): No such file or directory
+
+JOB STATISTICS
+==============
+Job ID: 6653307
+Cluster: snellius
+User/Group: dniessink/dniessink
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 1-19:40:24
+CPU Efficiency: 54.52% of 3-08:06:40 core-walltime
+Job Wall-clock time: 05:00:25
+Memory Utilized: 228.62 MB
+Memory Efficiency: 0.37% of 60.00 GB

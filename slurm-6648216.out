@@ -10,3 +10,29 @@ Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_2/run_9...
 Running DLPOLY in /gpfs/home1/dniessink/garnets/data/sim_densvar_2/run_10...
 slurmstepd: error: unable to open '/proc/3936199/cgroup' for reading : No such file or directory
 Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 6648216.7 ON tcn225 CANCELLED AT 2024-06-17T05:04:01 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6648216.9 ON tcn225 CANCELLED AT 2024-06-17T05:04:01 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 6648216 ON tcn225 CANCELLED AT 2024-06-17T05:04:01 DUE TO TIME LIMIT ***
+srun: error: tcn225: task 0: Terminated
+srun: Terminating StepId=6648216.7
+srun: error: tcn225: task 0: Terminated
+srun: Terminating StepId=6648216.9
+slurmstepd: error: container_p_join: open failed for /slurm/6648216/.ns: No such file or directory
+slurmstepd: error: container_g_join(6648216): No such file or directory
+
+JOB STATISTICS
+==============
+Job ID: 6648216
+Cluster: snellius
+User/Group: dniessink/dniessink
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 5-16:19:54
+CPU Efficiency: 42.60% of 13-08:00:48 core-walltime
+Job Wall-clock time: 20:00:03
+Memory Utilized: 226.78 MB
+Memory Efficiency: 0.37% of 60.00 GB
